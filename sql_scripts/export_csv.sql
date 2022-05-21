@@ -1,7 +1,6 @@
-(SELECT 'name', 'rating', 'region' FROM ratings)
-UNION
-SELECT * FROM ratings
-INTO OUTFILE '/home/coder/vscode-mysql/table.csv'
+
+SELECT address, location, district FROM pharmacies
+INTO OUTFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\exported_table2.csv'
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
