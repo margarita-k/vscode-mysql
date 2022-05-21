@@ -1,7 +1,8 @@
--- Setup the ratings database and create the basic table
-CREATE DATABASE IF NOT EXISTS ratings;
-USE ratings;
-CREATE TABLE ratings (
-	name VARCHAR(256),
-	rating VARCHAR(120),
-	region VARCHAR(256));
+-- Setup the pharmacies database and create the basic table
+CREATE DATABASE IF NOT EXISTS pharmacies;
+USE pharmacies;
+CREATE TABLE pharmacies (
+	address VARCHAR(256),
+	location VARCHAR(17),
+	city VARCHAR(100),
+	district VARCHAR(100));

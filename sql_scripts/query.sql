@@ -1,2 +1,2 @@
-USE ratings;
-SELECT * from ratings LIMIT 100;
+USE pharmacies_backup;
+SELECT * from pharmacies LIMIT 100;
